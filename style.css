@@ -4,6 +4,9 @@ body{
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
+p{
+    color:#888888;
+}
 section{
     height: 800px;
 }
@@ -68,9 +71,19 @@ a{
     background-repeat: no-repeat;
     background-size: 100% 800px;
 }
-.btn-lg{
+.btn-lg,.btn-lg p{
     width: 30%;
     margin-left:33%;
+    color: white;
+}
+.client-area h1{
+    font-size: 50px;
+    margin-bottom: 100px;
+}
+#spclp{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    color: #000;
 }
 footer{
     text-align: center;
