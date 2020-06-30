@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+body{
+    margin:0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+section{
+    height: 800px;
+}
+img{
+    width: 100%;
+}
+.top-area{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 800px;
+}
+.bio-area{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 800px;
+}
+.half-width{
+    width: 40%;
+    
+    float: left;
+    height: 500px;
+    
+}
+.top-area h1{
+    color:#EC4C7A;
+    font-size: 50px;
+}
+#top-text{
+    margin-left: 25%;
+    margin-top: 25%;
+}
+.btn{
+text-decoration: none;
+background-color: #EC4C7A;
+padding: 10px 20px;
+color: white;
+border-radius: 5px;
+background-image: linear-gradient(45deg,#EC5299,#ED4B6F);
+}
+.work-area{
+    padding: 50px 70px;
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 800px;
+}
+.img-work{
+    width: 30%;
+    float: left;
+    margin-right: 3%;
+}
+.work-area h1{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 75px;
+}
+a{
+    text-decoration: none;
+}
+.client-area{
+    text-align: center;
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 800px;
+}
+.btn-lg{
+    width: 30%;
+    margin-left:33%;
+}
+footer{
+    text-align: center;
+}
