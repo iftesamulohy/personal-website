@@ -93,6 +93,39 @@ a{
     margin-bottom: 80px;
     color: #000;
 }
+.box{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 50%;
+    background-color: #fff;
+    margin-left: 5%;
+    padding: 2%;
+
+}
+.ex-area{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    text-align: center;
+    padding-top: 2%;
+}
+.ex-area h2{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+#ex-one{
+border-left: 7px solid;
+border-image: linear-gradient(#EC5299,#ED4B6F);
+border-image-slice: 1;
+}
+#ex-two{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+}
+.h3-highlight{
+    color:#ED4B6F;
+}
 footer{
     text-align: center;
 }
